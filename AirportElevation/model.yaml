@@ -1,0 +1,58 @@
+AirportElevation:
+  description: 'Property. The height of an Airport, above sea level.'
+  properties:
+    AirportElevationUnitOfMeasurement:
+      description: The unit of measure of the height of an Airport above sea level (FT for foot or M for metre).
+      properties:
+        Name:
+          description: The name of the unit of measure for an Airport elevation above sea level.
+          type: string
+          x-ngsi:
+            type: Property
+      type: object
+      x-ngsi:
+        type: Property
+    Name:
+      description: The name of an Airport elevation above sea level.
+      type: string
+      x-ngsi:
+        type: Property
+    Value:
+      description: The value of an Airport elevation above sea level.
+      type: number
+      x-ngsi:
+        type: Property
+    id:
+      anyOf:
+        - description: Identifier format of any NGSI entity
+          maxLength: 256
+          minLength: 1
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$
+          type: string
+          x-ngsi:
+            type: Property
+        - description: Identifier format of any NGSI entity
+          format: uri
+          type: string
+          x-ngsi:
+            type: Property
+      description: Unique identifier of the entity
+      x-ngsi:
+        type: Property
+    type:
+      description: It must be equal to AirportElevation.
+      enum:
+        - AirportElevation
+      type: string
+      x-ngsi:
+        type: Property
+  required:
+    - id
+    - type
+  type: object
+  x-derived-from: https://acris.aero/static/documents/waittimes/ACI-Wait-Times-API-Specification-v1.6.0.1c4ec122da9a.yaml
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
+  x-license-url: https://github.com/smart-data-models/dataModel.ACRIS/blob/master/AirportElevation/LICENSE.md
+  x-model-schema: https://smart-data-models.github.io/dataModel.ACRIS/AirportElevation/schema.json
+  x-model-tags: ACRIS
+  x-version: 0.0.1
