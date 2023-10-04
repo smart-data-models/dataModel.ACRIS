@@ -1,0 +1,38 @@
+{
+    "@id": "dtmi:com:ngsi-ld:AirportElevation;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model AirportElevation adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/AirportElevation/schema.json",
+    "description": "Property. The height of an Airport, above sea level.",
+    "displayName": "AirportElevation",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of an Airport elevation above sea level."
+        },
+        {
+            "name": "Value",
+            "writable": true,
+            "displayName": "Value",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "The value of an Airport elevation above sea level."
+        },
+        {
+            "@type": "object",
+            "name": "AirportElevationUnitOfMeasurement",
+            "comment": "The unit of measure of the height of an Airport above sea level (FT for foot or M for metre).",
+            "displayName": "AirportElevationUnitOfMeasurement",
+            "fields": [
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
