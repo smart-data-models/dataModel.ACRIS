@@ -1,0 +1,2 @@
+"id_", "type_", "Name__type_", "Name__value_", "Value__type_", "Value__value_", "AirportElevationUnitOfMeasurement__type_", "AirportElevationUnitOfMeasurement__value__Name_"
+"urn:ngsi-ld:AirportElevation:id:BQPP:71138381", "AirportElevation", "Text", "", "Number", "400.6", "StructuredValue", "meters"
