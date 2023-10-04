@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "AirportElevation": "https://smartdatamodels.org/dataModel.ACRIS/AirportElevation",
+        "AirportElevationUnitOfMeasurement": "https://smartdatamodels.org/dataModel.ACRIS/AirportElevationUnitOfMeasurement",
+        "Name": "https://smartdatamodels.org/dataModel.ACRIS/Name",
+        "Value": "https://smartdatamodels.org/dataModel.ACRIS/Value",
+        "id": "@id",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "type": "@type"
+    }
+}
