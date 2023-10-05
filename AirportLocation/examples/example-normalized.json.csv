@@ -1,0 +1,2 @@
+"id_", "type_", "Latitude__type_", "Latitude__value_", "Longitude__type_", "Longitude__value_", "Name__type_", "Name__value_", "Srid__type_", "Srid__value_"
+"urn:ngsi-ld:AirportLocation:id:LCGI:88743541", "AirportLocation", "Number", "40.41", "Number", "3.702", "Number", "Madrid", "Number", "4326"
