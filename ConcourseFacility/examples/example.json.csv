@@ -1,0 +1,2 @@
+"id_", "type_", "Identifier_", "Name_", "TerminalFacility__Identifier_", "TerminalFacility__Name_", "TerminalFacility__AirportFacility__IataCode_", "TerminalFacility__AirportFacility__IcaoCode_", "TerminalFacility__AirportFacility__Name_"
+"urn:ngsi-ld:ConcourseFacility:id:XFOJ:43820676", "ConcourseFacility", "BA/B", "Boarding Area B", "T1", "Terminal 1", "SFO", "KSFO", "San Francisco International Airport"
