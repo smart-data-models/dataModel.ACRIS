@@ -1,0 +1,46 @@
+{
+    "@id": "dtmi:com:ngsi-ld:ConcourseFacility;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model ConcourseFacility adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/ConcourseFacility/schema.json",
+    "description": "Property. Information about an Airport Concourse as buildings or infrastructure used to provide services.",
+    "displayName": "ConcourseFacility",
+    "contents": [
+        {
+            "name": "Identifier",
+            "writable": true,
+            "displayName": "Identifier",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique identifier for the Concourse Facility."
+        },
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Concourse Facility."
+        },
+        {
+            "@type": "object",
+            "name": "TerminalFacility",
+            "comment": "Information about an Airport Terminal as buildings or infrastructure used to provide services.",
+            "displayName": "TerminalFacility",
+            "fields": [
+                {
+                    "name": "AirportFacility",
+                    "schema": "object"
+                },
+                {
+                    "name": "Identifier",
+                    "schema": "string"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
