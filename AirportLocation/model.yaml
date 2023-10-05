@@ -1,0 +1,57 @@
+AirportLocation:
+  description: Property. The geospatial or geopolitical location of an Airport.
+  properties:
+    Latitude:
+      description: Coordinate for latitude of the Airport.
+      type: number
+      x-ngsi:
+        type: Property
+    Longitude:
+      description: Coordinate for longitude of the Airport.
+      type: number
+      x-ngsi:
+        type: Property
+    Name:
+      description: Unique name for the Airport Location.
+      type: string
+      x-ngsi:
+        type: Property
+    Srid:
+      description: 'A Spatial Reference System Identifier (SRID), to identify the spatial coordinate system definitions.'
+      type: number
+      x-ngsi:
+        type: Property
+    id:
+      anyOf:
+        - description: Identifier format of any NGSI entity
+          maxLength: 256
+          minLength: 1
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$
+          type: string
+          x-ngsi:
+            type: Property
+        - description: Identifier format of any NGSI entity
+          format: uri
+          type: string
+          x-ngsi:
+            type: Property
+      description: Unique identifier of the entity
+      x-ngsi:
+        type: Property
+    type:
+      description: It must be equal to AirportLocation.
+      enum:
+        - AirportLocation
+      type: string
+      x-ngsi:
+        type: Property
+  required:
+    - id
+    - type
+  type: object
+  x-derived-from: https://acris.aero/static/documents/waittimes/ACI-Wait-Times-API-Specification-v1.6.0.1c4ec122da9a.yaml
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
+  x-license-url: https://github.com/smart-data-models/dataModel.ACRIS/blob/master/AirportLocation/LICENSE.md
+  x-model-schema: https://smart-data-models.github.io/dataModel.ACRIS/AirportLocation/schema.json
+  x-model-tags: ACRIS
+  x-version: 0.0.1

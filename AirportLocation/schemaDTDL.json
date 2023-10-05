@@ -1,0 +1,42 @@
+{
+    "@id": "dtmi:com:ngsi-ld:AirportLocation;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model AirportLocation adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/AirportLocation/schema.json",
+    "description": "Property. The geospatial or geopolitical location of an Airport.",
+    "displayName": "AirportLocation",
+    "contents": [
+        {
+            "name": "Latitude",
+            "writable": true,
+            "displayName": "Latitude",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Coordinate for latitude of the Airport."
+        },
+        {
+            "name": "Longitude",
+            "writable": true,
+            "displayName": "Longitude",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Coordinate for longitude of the Airport."
+        },
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Airport Location."
+        },
+        {
+            "name": "Srid",
+            "writable": true,
+            "displayName": "Srid",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "A Spatial Reference System Identifier (SRID), to identify the spatial coordinate system definitions."
+        }
+    ]
+}

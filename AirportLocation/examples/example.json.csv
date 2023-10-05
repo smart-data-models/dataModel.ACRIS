@@ -1,0 +1,2 @@
+"id_", "type_", "Latitude_", "Longitude_", "Name_", "Srid_"
+"urn:ngsi-ld:AirportLocation:id:DSZW:70034143", "AirportLocation", "40.41", "3.708", "Madrid", "4326"

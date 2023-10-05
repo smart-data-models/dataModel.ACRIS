@@ -1,0 +1,34 @@
+{
+    "@id": "dtmi:com:ngsi-ld:AirportFacility;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model AirportFacility adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/AirportFacility/schema.json",
+    "description": "Property. Information about an Airport as buildings or infrastructure used to provide services.",
+    "displayName": "AirportFacility",
+    "contents": [
+        {
+            "name": "IataCode",
+            "writable": true,
+            "displayName": "IataCode",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Three character IATA code for the Airport."
+        },
+        {
+            "name": "IcaoCode",
+            "writable": true,
+            "displayName": "IcaoCode",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Four character ICAO code for the Airport."
+        },
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Common name of the Airport."
+        }
+    ]
+}

@@ -2,8 +2,18 @@
     "@context": {
         "AirportElevation": "https://smartdatamodels.org/dataModel.ACRIS/AirportElevation",
         "AirportElevationUnitOfMeasurement": "https://smartdatamodels.org/dataModel.ACRIS/AirportElevationUnitOfMeasurement",
+        "AirportFacility": "https://smartdatamodels.org/dataModel.ACRIS/AirportFacility",
+        "AirportLocation": "https://smartdatamodels.org/dataModel.ACRIS/AirportLocation",
+        "CheckpointAreaLocation": "https://smartdatamodels.org/dataModel.ACRIS/CheckpointAreaLocation",
+        "IataCode": "https://smartdatamodels.org/dataModel.ACRIS/IataCode",
+        "IcaoCode": "https://smartdatamodels.org/dataModel.ACRIS/IcaoCode",
+        "Latitude": "https://smartdatamodels.org/dataModel.ACRIS/Latitude",
+        "Longitude": "https://smartdatamodels.org/dataModel.ACRIS/Longitude",
         "Name": "https://smartdatamodels.org/dataModel.ACRIS/Name",
+        "Srid": "https://smartdatamodels.org/dataModel.ACRIS/Srid",
+        "TerminalAreaLocation": "https://smartdatamodels.org/dataModel.ACRIS/TerminalAreaLocation",
         "Value": "https://smartdatamodels.org/dataModel.ACRIS/Value",
+        "ZoneAreaLocation": "https://smartdatamodels.org/dataModel.ACRIS/ZoneAreaLocation",
         "id": "@id",
         "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "type": "@type"
