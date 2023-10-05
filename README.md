@@ -13,6 +13,16 @@ The following entity types are available:
 
 - [CheckpointAreaLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/CheckpointAreaLocation/README.md). Property. The geospatial or geopolitical location of a Checkpoint.
 
+- [CheckpointFacility](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/CheckpointFacility/README.md). Property. Information about a Checkpoint in an Airport used to provide services. A Checkpoint facility is any facility where customers and passengers turn up and need to be processed, serviced or screened before proceeding to the next stage of their journey. 
+
+- [CheckpointFacilityOperatorParty](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/CheckpointFacilityOperatorParty/README.md). Property. Information that describes the Party responsible for the operation of a Checkpoint in an Airport.
+
+- [CheckpointFacilityType](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/CheckpointFacilityType/README.md). Property. Information that describes the classification for a Checkpoint in an Airport. Values are: Security Screening, Customs.
+
+- [ConcourseFacility](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/ConcourseFacility/README.md). Property. Information about an Airport Concourse as buildings or infrastructure used to provide services.
+
+- [MeasurementDevice](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/MeasurementDevice/README.md). Property. Information about the device (equipment) used to take measurements (observations).
+
 
 
 ### Contributors
