@@ -1,0 +1,2 @@
+"id_", "type_", "Name__type_", "Name__value_", "PassengerProcessType__type_", "PassengerProcessType__value__Code_", "PassengerProcessType__value__Description_", "@context__0_"
+"urn:ngsi-ld:PassengerProcess:id:YOUE:15643415", "PassengerProcess", "Property", "", "Property", "code1", "", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
