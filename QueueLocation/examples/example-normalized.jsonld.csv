@@ -1,0 +1,2 @@
+"id_", "type_", "Name__type_", "Name__value_", "@context__0_"
+"urn:ngsi-ld:QueueLocation:id:TYME:10861235", "QueueLocation", "Property", "BA/B", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
