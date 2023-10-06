@@ -1,0 +1,2 @@
+"id_", "type_", "ClosingTime_", "OpeningTime_", "@context__0_"
+"urn:ngsi-ld:OperationTimePeriod:id:XCIN:24494142", "OperationTimePeriod", "23:59:02Z", "00:00:00Z", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
