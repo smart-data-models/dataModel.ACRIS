@@ -1,58 +1,71 @@
 {
-  "id": "urn:ngsi-ld:PassengerQueue:id:DLSH:49883369",
-  "type": "PassengerQueue",
-  "Identifier": "1",
-  "Name": "1",
-  "CheckpointFacility": {
-    "Description": "",
-    "Identifier": "1bdaec90-7a42-11e7-bb31-be2e44b06b34",
-    "Name": "Checkpoint B",
-    "CheckpointAreaLocation": {
-      "Latitude": 40.42,
-      "Longitude": 3.08,
-      "Name": "",
-      "$rid": 0
-    },
-    "CheckpointFacilityOperatorParty": {
+  "id": "urn:ngsi-ld:QueueMeasurement:id:IEQX:79193255",
+  "type": "QueueMeasurement",
+  "Occupancy": 58,
+  "ProjectedWaitTime": 544.4,
+  "Throughput": 384,
+  "WaitTime": 645.9,
+  "MeasurementDevice": {
+    "Name": "",
+    "MeasurementDeviceLocation": {
       "Name": ""
-    },
-    "CheckpointFacilityType": {
-      "Code": "",
-      "Description": ""
-    },
-    "ConcourseFacility": {
-      "Identifier": "BA/B",
-      "Name": "Boarding Area B",
-      "TerminalFacility": {
-        "Identifier": "T1",
-        "Name": "Terminal 1",
-        "AirportFacility": {
-          "IataCode": "SFO",
-          "IcaoCode": "KSFO",
-          "Name": "San Francisco International Airport"
+    }
+  },
+  "MeasurementTimePeriod": {
+    "EndTime": "2023-03-22T18:59:02Z"
+  },
+  "PassengerQueue": {
+    "Identifier": "1",
+    "Name": "1",
+    "CheckpointFacility": {
+      "Description": "",
+      "Identifier": "1bdaec90-7a42-11e7-bb31-be2e44b06b34",
+      "Name": "Checkpoint B",
+      "CheckpointAreaLocation": {
+        "Latitude": 43.02,
+        "longitude": 3.08
+      },
+      "CheckpointFacilityOperatorParty": {
+        "Name": ""
+      },
+      "CheckpointFacilityType": {
+        "Code": "",
+        "Description": ""
+      },
+      "ConcourseFacility": {
+        "Identifier": "BA/B",
+        "Name": "Boarding Area B",
+        "TerminalFacility": {
+          "Identifier": "T1",
+          "Name": "Terminal 1",
+          "AirportFacility": {
+            "IataCode": "SFO",
+            "IcaoCode": "KSFO",
+            "Name": "San Francisco InternationalAirport"
+          }
         }
+      },
+      "OperationTimePeriod": {
+        "ClosingTime": "",
+        "OpeningTime": ""
       }
     },
-    "OperationTimePeriod": {
-      "ClosingTime": "",
-      "OpeningTime": ""
-    }
-  },
-  "PassengerProcess": {
-    "Name": "",
-    "PassengerProcessType": {
+    "PassengerProcess": {
+      "Name": "",
+      "PassengerProcessType": {
+        "Code": "",
+        "Description": ""
+      }
+    },
+    "QueueLocation": {
+      "Name": ""
+    },
+    "QueueStatus": {
+      "Name": ""
+    },
+    "QueueType": {
       "Code": "",
       "Description": ""
     }
-  },
-  "QueueLocation": {
-    "Name":""
-  },
-  "QueueStatus": {
-    "Name":""
-  },
-  "QueueType": {
-    "Code": "",
-    "Description": ""
   }
 }

@@ -21,9 +21,17 @@
       "Description": "",
       "Identifier": "1bdaec90-7a42-11e7-bb31-be2e44b06b34",
       "Name": "Checkpoint B",
-      "CheckpointAreaLocation": "",
-      "CheckpointFacilityOperatorParty": "",
-      "CheckpointFacilityType": "",
+      "CheckpointAreaLocation": {
+        "Latitude": 43.02,
+        "longitude": 3.08
+      },
+      "CheckpointFacilityOperatorParty": {
+        "Name": ""
+      },
+      "CheckpointFacilityType": {
+        "Code": "",
+        "Description": ""
+      },
       "ConcourseFacility": {
         "Identifier": "BA/B",
         "Name": "Boarding Area B",
@@ -37,7 +45,10 @@
           }
         }
       },
-      "OperationTimePeriod": ""
+      "OperationTimePeriod": {
+        "ClosingTime": "",
+        "OpeningTime": ""
+      }
     },
     "PassengerProcess": {
       "Name": "",
