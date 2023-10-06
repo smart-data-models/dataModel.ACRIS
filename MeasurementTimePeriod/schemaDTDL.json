@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:com:ngsi-ld:MeasurementTimePeriod;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model MeasurementTimePeriod adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/MeasurementTimePeriod/schema.json",
+    "description": "Property. The time period over which a Measurement is taken.",
+    "displayName": "MeasurementTimePeriod",
+    "contents": [
+        {
+            "name": "EndTime",
+            "writable": true,
+            "displayName": "EndTime",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The date and time at the end of the time period over which a Measurement is taken. Date time should be UTC, compliant with ISO 8601 format (e.g. 2023-04-20T11:54:59Z)"
+        }
+    ]
+}
