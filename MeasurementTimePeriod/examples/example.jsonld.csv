@@ -1,0 +1,2 @@
+"id_", "type_", "EndTime_", "@context__0_"
+"urn:ngsi-ld:MeasurementTimePeriod:id:SDGV:22291046", "MeasurementTimePeriod", "2023-03-22T18:59:02Z", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
