@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:com:ngsi-ld:CheckpointFacilityOperatorParty;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model CheckpointFacilityOperatorParty adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/CheckpointFacilityOperatorParty/schema.json",
+    "description": "Property. Information that describes the Party responsible for the operation of a Checkpoint in an Airport.",
+    "displayName": "CheckpointFacilityOperatorParty",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name of the Operator Party for the Checkpoint Facility."
+        }
+    ]
+}

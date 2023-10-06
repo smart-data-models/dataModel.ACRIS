@@ -1,0 +1,130 @@
+{
+    "@id": "dtmi:com:ngsi-ld:CheckpointFacility;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model CheckpointFacility adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/CheckpointFacility/schema.json",
+    "description": "Property. Information about a Checkpoint in an Airport used to provide services. A Checkpoint facility is any facility where customers and passengers turn up and need to be processed, serviced or screened before proceeding to the next stage of their journey. ",
+    "displayName": "CheckpointFacility",
+    "contents": [
+        {
+            "name": "Description",
+            "writable": true,
+            "displayName": "Description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Description of the Checkpoint Facility."
+        },
+        {
+            "name": "Identifier",
+            "writable": true,
+            "displayName": "Identifier",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique identifier for the Checkpoint Facility. The identifier should be unique within an Airport."
+        },
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Checkpoint Facility. The name should be unique within an Airport."
+        },
+        {
+            "@type": "object",
+            "name": "CheckpointAreaLocation",
+            "comment": "The geospatial or geopolitical location of a Checkpoint.",
+            "displayName": "CheckpointAreaLocation",
+            "fields": [
+                {
+                    "name": "AirportElevation",
+                    "schema": "object"
+                },
+                {
+                    "name": "Latitude",
+                    "schema": "long"
+                },
+                {
+                    "name": "Longitude",
+                    "schema": "long"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "Srid",
+                    "schema": "integer"
+                },
+                {
+                    "name": "ZoneAreaLocation",
+                    "schema": "object"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "CheckpointFacilityOperatorParty",
+            "comment": "Information that describes the Party responsible for the operation of a Checkpoint in an Airport.",
+            "displayName": "CheckpointFacilityOperatorParty",
+            "fields": [
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "CheckpointFacilityType",
+            "comment": "Information that describes the classification for a Checkpoint in an Airport. Values are: Security Screening, Customs.",
+            "displayName": "CheckpointFacilityType",
+            "fields": [
+                {
+                    "name": "Code",
+                    "schema": "string"
+                },
+                {
+                    "name": "Description",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "ConcourseFacility",
+            "comment": "Information about an Airport Concourse as buildings or infrastructure used to provide services.",
+            "displayName": "ConcourseFacility",
+            "fields": [
+                {
+                    "name": "Identifier",
+                    "schema": "string"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "TerminalFacility",
+                    "schema": "object"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "OperationTimePeriod",
+            "comment": "The time period over which the Checkpoint is operating.",
+            "displayName": "OperationTimePeriod",
+            "fields": [
+                {
+                    "name": "ClosingTime",
+                    "schema": "string"
+                },
+                {
+                    "name": "OpeningTime",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
