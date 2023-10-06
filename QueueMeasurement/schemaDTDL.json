@@ -1,0 +1,106 @@
+{
+    "@id": "dtmi:com:ngsi-ld:QueueMeasurement;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model QueueMeasurement adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/QueueMeasurement/schema.json",
+    "description": "Property. Information about the measurements (observations) of particular Measures of a Passenger Queue.",
+    "displayName": "QueueMeasurement",
+    "contents": [
+        {
+            "name": "Occupancy",
+            "writable": true,
+            "displayName": "Occupancy",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "The count of people in the queue.  The unit of measure is number of people. This metric is updated every five minutes."
+        },
+        {
+            "name": "ProjectedWaitTime",
+            "writable": true,
+            "displayName": "ProjectedWaitTime",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "The estimated time that a person entering the queue can expect to wait. The unit of measure is seconds. Estimates are required to be updated every five minutes."
+        },
+        {
+            "name": "Throughput",
+            "writable": true,
+            "displayName": "Throughput",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "The average number of passengers processed over the past hour. The unit of measure is passengers per hour. This metric is updated every five minutes."
+        },
+        {
+            "name": "WaitTime",
+            "writable": true,
+            "displayName": "WaitTime",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "The duration that a person exiting the queue has experienced. The unit of measure is seconds. The amount represents the average number of seconds experienced by people exiting the queue in the last five minutes. The amounts are required to be updated every five minutes."
+        },
+        {
+            "@type": "object",
+            "name": "MeasurementDevice",
+            "comment": "Information about the device (equipment) used to take measurements (observations).",
+            "displayName": "MeasurementDevice",
+            "fields": [
+                {
+                    "name": "MeasurementDeviceLocation",
+                    "schema": "object"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "MeasurementTimePeriod",
+            "comment": "The time period over which a Measurement is taken.",
+            "displayName": "MeasurementTimePeriod",
+            "fields": [
+                {
+                    "name": "EndTime",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "PassengerQueue",
+            "comment": "Information about the Passenger Party Queue. A line of people waiting to pass through the security checkpoint process.",
+            "displayName": "PassengerQueue",
+            "fields": [
+                {
+                    "name": "CheckpointFacility",
+                    "schema": "object"
+                },
+                {
+                    "name": "Identifier",
+                    "schema": "string"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "PassengerProcess",
+                    "schema": "object"
+                },
+                {
+                    "name": "QueueLocation",
+                    "schema": "object"
+                },
+                {
+                    "name": "QueueStatus",
+                    "schema": "object"
+                },
+                {
+                    "name": "QueueType",
+                    "schema": "object"
+                }
+            ]
+        }
+    ]
+}
