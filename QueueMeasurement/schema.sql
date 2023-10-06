@@ -1,0 +1,3 @@
+/* (Beta) Export of data model QueueMeasurement of the subject dataModel.ACRIS for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE QueueMeasurement_type AS ENUM ('QueueMeasurement');
+CREATE TABLE QueueMeasurement (MeasurementDevice JSON, MeasurementTimePeriod JSON, Occupancy NUMERIC, PassengerQueue JSON, ProjectedWaitTime NUMERIC, Throughput NUMERIC, WaitTime NUMERIC, type QueueMeasurement_type);
