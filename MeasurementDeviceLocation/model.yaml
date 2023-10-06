@@ -1,0 +1,42 @@
+MeasurementDeviceLocation:
+  description: Property. The geospatial or geopolitical location of a Measurement Device.
+  properties:
+    Name:
+      description: Unique name for the location of the Measurement Device.
+      type: string
+      x-ngsi:
+        type: Property
+    id:
+      anyOf:
+        - description: Identifier format of any NGSI entity
+          maxLength: 256
+          minLength: 1
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$
+          type: string
+          x-ngsi:
+            type: Property
+        - description: Identifier format of any NGSI entity
+          format: uri
+          type: string
+          x-ngsi:
+            type: Property
+      description: Unique identifier of the entity
+      x-ngsi:
+        type: Property
+    type:
+      description: It must be equal to MeasurementDeviceLocation.
+      enum:
+        - MeasurementDeviceLocation
+      type: string
+      x-ngsi:
+        type: Property
+  required:
+    - id
+    - type
+  type: object
+  x-derived-from: https://acris.aero/static/documents/waittimes/ACI-Wait-Times-API-Specification-v1.6.0.1c4ec122da9a.yaml
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
+  x-license-url: https://github.com/smart-data-models/dataModel.ACRIS/blob/master/MeasurementDeviceLocation/LICENSE.md
+  x-model-schema: https://smart-data-models.github.io/dataModel.ACRIS/MeasurementDeviceLocation/schema.json
+  x-model-tags: ACRIS
+  x-version: 0.0.1
