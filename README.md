@@ -23,6 +23,22 @@ The following entity types are available:
 
 - [MeasurementDevice](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/MeasurementDevice/README.md). Property. Information about the device (equipment) used to take measurements (observations).
 
+- [MeasurementDeviceLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/MeasurementDeviceLocation/README.md). Property. The geospatial or geopolitical location of a Measurement Device.
+
+- [MeasurementTimePeriod](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/MeasurementTimePeriod/README.md). Property. The time period over which a Measurement is taken.
+
+- [OperationTimePeriod](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/OperationTimePeriod/README.md). Property. The time period over which the Checkpoint is operating.
+
+- [PassengerProcess](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/PassengerProcess/README.md). Property. Information about the Passenger Party Process.
+
+- [PassengerProcessType](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/PassengerProcessType/README.md). Property. Information about the type of Passenger Party Process.
+
+- [QueueLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueLocation/README.md). Property. The geospatial or geopolitical location of a Passenger Queue.
+
+- [QueueMeasurement](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueMeasurement/README.md). Property. Information about the measurements (observations) of particular Measures of a Passenger Queue.
+
+- [QueueStatus](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueStatus/README.md). Property. Information about the status of a Passenger Queue. Values can be: Open, Closed.
+
 
 
 ### Contributors
