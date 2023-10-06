@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:com:ngsi-ld:QueueStatus;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model QueueStatus adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/QueueStatus/schema.json",
+    "description": "Property. Information about the status of a Passenger Queue. Values can be: Open, Closed.",
+    "displayName": "QueueStatus",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the status of the Passenger Queue."
+        }
+    ]
+}
