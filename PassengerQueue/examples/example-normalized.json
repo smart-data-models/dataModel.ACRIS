@@ -19,7 +19,7 @@
                 "Latitude": 40.42,
                 "Longitude": 3.708,
                 "Name": "",
-                "Srid": ,
+                "Srid": 0,
                 "AirportElevation": {
                     "Name": "",
                     "Value": 3.6,
