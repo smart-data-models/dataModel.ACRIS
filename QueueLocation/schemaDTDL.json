@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:com:ngsi-ld:QueueLocation;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model QueueLocation adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/QueueLocation/schema.json",
+    "description": "Property. The geospatial or geopolitical location of a Passenger Queue.",
+    "displayName": "QueueLocation",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Queue Location."
+        }
+    ]
+}
