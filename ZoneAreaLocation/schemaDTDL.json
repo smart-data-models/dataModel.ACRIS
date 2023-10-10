@@ -1,0 +1,34 @@
+{
+    "@id": "dtmi:com:ngsi-ld:ZoneAreaLocation;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model ZoneAreaLocation adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/ZoneAreaLocation/schema.json",
+    "description": "Property. The geospatial or geopolitical location of a Queuing Zone in a Terminal.",
+    "displayName": "ZoneAreaLocation",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Zone Area Location."
+        },
+        {
+            "@type": "object",
+            "name": "TerminalAreaLocation",
+            "comment": "The geospatial or geopolitical location of an Airport Terminal building.",
+            "displayName": "TerminalAreaLocation",
+            "fields": [
+                {
+                    "name": "AirportLocation",
+                    "schema": "object"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
