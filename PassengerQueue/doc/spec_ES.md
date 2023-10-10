@@ -613,7 +613,7 @@ PassengerQueue:
 ```  
 </details>  
 #### PassengerQueue NGSI-LD normalizado Ejemplo  
-He aquí un ejemplo de PassengerQueue en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
+A continuación se muestra un ejemplo de PassengerQueue en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
 {  
