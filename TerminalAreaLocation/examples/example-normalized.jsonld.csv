@@ -1,0 +1,2 @@
+"id_", "type_", "Name__type_", "Name__value_", "AirportLocation__type_", "AirportLocation__value__Latitude_", "AirportLocation__value__Longitude_", "AirportLocation__value__Name_", "AirportLocation__value__Srid_", "@context__0_"
+"urn:ngsi-ld:TerminalAreaLocation:id:BMIE:65800944", "TerminalAreaLocation", "Property", "East Terminal", "Property", "40.42", "3.708", "", "4326", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
