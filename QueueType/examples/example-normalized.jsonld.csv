@@ -1,0 +1,2 @@
+"id_", "type_", "Code__type_", "Code__value_", "Description__type_", "Description__value_", "@context__0_"
+"urn:ngsi-ld:QueueType:id:BCWB:56620437", "QueueType", "Property", "type1", "Property", "", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
