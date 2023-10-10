@@ -1,0 +1,26 @@
+{
+    "@id": "dtmi:com:ngsi-ld:QueueType;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model QueueType adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/QueueType/schema.json",
+    "description": "Property. Information about the type of a Passenger Queue. Values can be: Pre-Check, Private, Economy, Priority, KnownCrewMember.",
+    "displayName": "QueueType",
+    "contents": [
+        {
+            "name": "Code",
+            "writable": true,
+            "displayName": "Code",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique code for the type of Passenger Queue."
+        },
+        {
+            "name": "Description",
+            "writable": true,
+            "displayName": "Description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Description of the type of Passenger Queue."
+        }
+    ]
+}
