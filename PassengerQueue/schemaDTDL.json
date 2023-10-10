@@ -1,0 +1,122 @@
+{
+    "@id": "dtmi:com:ngsi-ld:PassengerQueue;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model PassengerQueue adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/PassengerQueue/schema.json",
+    "description": "Property. Information about the Passenger Party Queue. A line of people waiting to pass through the security checkpoint process.",
+    "displayName": "PassengerQueue",
+    "contents": [
+        {
+            "name": "Identifier",
+            "writable": true,
+            "displayName": "Identifier",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique identifier for the Passenger Queue. The identifier should be unique within an Airport."
+        },
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Name of the Passenger Queue. The name should be unique within an Airport."
+        },
+        {
+            "@type": "object",
+            "name": "CheckpointFacility",
+            "comment": "Information about a Checkpoint in an Airport used to provide services. A Checkpoint facility is any facility where customers and passengers turn up and need to be processed, serviced or screened before proceeding to the next stage of their journey. ",
+            "displayName": "CheckpointFacility",
+            "fields": [
+                {
+                    "name": "CheckpointAreaLocation",
+                    "schema": "object"
+                },
+                {
+                    "name": "CheckpointFacilityOperatorParty",
+                    "schema": "object"
+                },
+                {
+                    "name": "CheckpointFacilityType",
+                    "schema": "object"
+                },
+                {
+                    "name": "ConcourseFacility",
+                    "schema": "object"
+                },
+                {
+                    "name": "Description",
+                    "schema": "string"
+                },
+                {
+                    "name": "Identifier",
+                    "schema": "string"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "OperationTimePeriod",
+                    "schema": "object"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "PassengerProcess",
+            "comment": "Information about the Passenger Party Process.",
+            "displayName": "PassengerProcess",
+            "fields": [
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "PassengerProcessType",
+                    "schema": "object"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "QueueLocation",
+            "comment": "The geospatial or geopolitical location of a Passenger Queue.",
+            "displayName": "QueueLocation",
+            "fields": [
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "QueueStatus",
+            "comment": "Information about the status of a Passenger Queue. Values can be: Open, Closed.",
+            "displayName": "QueueStatus",
+            "fields": [
+                {
+                    "name": "Name",
+                    "schema": "string"
+                }
+            ]
+        },
+        {
+            "@type": "object",
+            "name": "QueueType",
+            "comment": "Information about the type of a Passenger Queue. Values can be: Pre-Check, Private, Economy, Priority, KnownCrewMember.",
+            "displayName": "QueueType",
+            "fields": [
+                {
+                    "name": "Code",
+                    "schema": "string"
+                },
+                {
+                    "name": "Description",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
