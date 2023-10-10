@@ -15,7 +15,7 @@
 ## Liste der Eigenschaften  
 
 <sup><sub>[*] Wenn es für ein Attribut keinen Typ gibt, kann es mehrere Typen oder verschiedene Formate/Muster haben</sub></sup>.  
-- `CheckpointFacility[object]`: Informationen über einen Kontrollpunkt auf einem Flughafen, der für die Erbringung von Dienstleistungen genutzt wird. Ein Kontrollpunkt ist eine Einrichtung, an der Kunden und Passagiere ankommen und abgefertigt, bedient oder kontrolliert werden müssen, bevor sie die nächste Etappe ihrer Reise antreten können.  	- `CheckpointAreaLocation[object]`: Der geografische oder geopolitische Standort eines Kontrollpunkts.    
+- `CheckpointFacility[object]`: Informationen über einen Kontrollpunkt an einem Flughafen, der für die Erbringung von Dienstleistungen genutzt wird. Ein Kontrollpunkt ist eine Einrichtung, an der Kunden und Passagiere ankommen und abgefertigt, bedient oder kontrolliert werden müssen, bevor sie die nächste Etappe ihrer Reise antreten können.  	- `CheckpointAreaLocation[object]`: Der geografische oder geopolitische Standort eines Kontrollpunkts.    
 	- `CheckpointFacilityOperatorParty[object]`: Informationen über die Partei, die für den Betrieb eines Checkpoints auf einem Flughafen verantwortlich ist.    
 	- `CheckpointFacilityType[object]`: Informationen, die die Klassifizierung eines Kontrollpunkts auf einem Flughafen beschreiben. Werte sind: Sicherheitsüberprüfung, Zoll.    
 	- `ConcourseFacility[object]`: Informationen über einen Airport Concourse als Gebäude oder Infrastruktur, die zur Erbringung von Dienstleistungen genutzt werden.    
