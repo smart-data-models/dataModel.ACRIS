@@ -16,14 +16,14 @@
 
 <sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。  
 - `AirportFacility[object]`: 有关机场的信息，如用于提供服务的建筑物或基础设施。  	- `IataCode[string]`: 机场的三个字符 IATA 代码。    
-	- `IcaoCode[string]`: 机场的四字符 ICAO 代码。    
+	- `IcaoCode[string]`: 机场的 ICAO 四字符代码。    
 	- `Name[string]`: 机场通用名称。    
 - `Identifier[string]`: 终端设施的唯一标识符。  - `Name[string]`: 终端设施的唯一名称。  - `id[*]`: 实体的唯一标识符  - `type[string]`: 它必须等于 TerminalFacility。  <!-- /30-PropertiesList -->  
 <!-- 35-RequiredProperties -->  
 所需属性  
 - `id`  - `type`  <!-- /35-RequiredProperties -->  
 <!-- 40-RequiredProperties -->  
-该数据模型是国际机场协会 (ACI) ACRIS 数据接口标准的乘客等候时间标准 v1.6.0 的映射。可登录 https://acris.aero/static/documents/waittimes/ACI-Wait-Times-Standard-API-v1.6.0.12b34cd0213e.pdf 查阅。  
+该数据模型是国际机场协会 (ACI) ACRIS 数据接口标准的乘客等候时间标准 v1.6.0 的映射。请访问 https://acris.aero/static/documents/waittimes/ACI-Wait-Times-Standard-API-v1.6.0.12b34cd0213e.pdf。  
 <!-- /40-RequiredProperties -->  
 <!-- 50-DataModelHeader -->  
 ## 属性的数据模型描述  
