@@ -33,11 +33,21 @@ The following entity types are available:
 
 - [PassengerProcessType](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/PassengerProcessType/README.md). Property. Information about the type of Passenger Party Process.
 
+- [PassengerQueue](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/PassengerQueue/README.md). Property. Information about the Passenger Party Queue. A line of people waiting to pass through the security checkpoint process.
+
 - [QueueLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueLocation/README.md). Property. The geospatial or geopolitical location of a Passenger Queue.
 
 - [QueueMeasurement](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueMeasurement/README.md). Property. Information about the measurements (observations) of particular Measures of a Passenger Queue.
 
 - [QueueStatus](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueStatus/README.md). Property. Information about the status of a Passenger Queue. Values can be: Open, Closed.
+
+- [QueueType](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/QueueType/README.md). Property. Information about the type of a Passenger Queue. Values can be: Pre-Check, Private, Economy, Priority, KnownCrewMember.
+
+- [TerminalAreaLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/TerminalAreaLocation/README.md). Property. The geospatial or geopolitical location of an Airport Terminal building.
+
+- [TerminalFacility](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/TerminalFacility/README.md). Property. Information about an Airport Terminal as buildings or infrastructure used to provide services.
+
+- [ZoneAreaLocation](https://github.com/smart-data-models/dataModel.ACRIS/blob/master/ZoneAreaLocation/README.md). Property. The geospatial or geopolitical location of a Queuing Zone in a Terminal.
 
 
 
