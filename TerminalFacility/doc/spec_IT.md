@@ -107,7 +107,7 @@ TerminalFacility:
 <!-- /70-MiddleNotes -->  
 <!-- 80-Examples -->  
 ## Esempi di payload  
-#### TerminalFacility Valori-chiave NGSI-v2 Esempio  
+#### TerminalFacility Valori chiave NGSI-v2 Esempio  
 Ecco un esempio di TerminalFacility in formato JSON-LD come valori-chiave. Questo è compatibile con NGSI-v2 quando si usa `options=keyValues` e restituisce i dati di contesto di una singola entità.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
