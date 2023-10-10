@@ -15,7 +15,7 @@
 ## 属性列表  
 
 <sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。  
-- `CheckpointFacility[object]`: 机场用于提供服务的检查站信息。安检站设施是指顾客和乘客在进入下一行程之前需要办理手续、接受服务或安检的任何设施。  	- `CheckpointAreaLocation[object]`: 检查站的地理空间或地缘政治位置。    
+- `CheckpointFacility[object]`: 机场用于提供服务的检查站信息。安检站设施是指顾客和乘客在进入下一行程之前需要接受处理、服务或检查的任何设施。  	- `CheckpointAreaLocation[object]`: 检查站的地理空间或地缘政治位置。    
 	- `CheckpointFacilityOperatorParty[object]`: 描述负责机场检查站运行的一方的信息。    
 	- `CheckpointFacilityType[object]`: 描述机场检查站分类的信息。值为安检、海关。    
 	- `ConcourseFacility[object]`: 机场航站楼作为用于提供服务的建筑物或基础设施的信息。    
@@ -34,7 +34,7 @@
 所需属性  
 - `id`  - `type`  <!-- /35-RequiredProperties -->  
 <!-- 40-RequiredProperties -->  
-该数据模型是国际机场协会 (ACI) ACRIS 数据接口标准的乘客等候时间标准 v1.6.0 的映射。可登录 https://acris.aero/static/documents/waittimes/ACI-Wait-Times-Standard-API-v1.6.0.12b34cd0213e.pdf 查阅。  
+该数据模型是国际机场协会 (ACI) ACRIS 数据接口标准的乘客等候时间标准 v1.6.0 的映射。请访问 https://acris.aero/static/documents/waittimes/ACI-Wait-Times-Standard-API-v1.6.0.12b34cd0213e.pdf。  
 <!-- /40-RequiredProperties -->  
 <!-- 50-DataModelHeader -->  
 ## 属性的数据模型描述  
@@ -442,7 +442,7 @@ PassengerQueue:
 ```  
 </details>  
 #### 乘客队列 NGSI-v2 标准化示例  
-下面是一个以 JSON-LD 格式规范化的 PassengerQueue（乘客队列）示例。在不使用选项的情况下，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。  
+下面是一个以 JSON-LD 格式规范化的 PassengerQueue（乘客队列）示例。当不使用选项时，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
 {  
