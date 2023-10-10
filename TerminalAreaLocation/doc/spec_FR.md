@@ -151,7 +151,7 @@ TerminalAreaLocation:
 }  
 ```  
 </details>  
-#### TerminalAreaLocation Valeurs clés de la NGSI-LD Exemple  
+#### TerminalAreaLocation Valeurs clés NGSI-LD Exemple  
 Voici un exemple de TerminalAreaLocation au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
