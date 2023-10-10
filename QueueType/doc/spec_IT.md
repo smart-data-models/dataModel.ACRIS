@@ -15,7 +15,7 @@
 ## Elenco delle proprietà  
 
 <sup><sub>[*] Se non c'è un tipo in un attributo è perché potrebbe avere diversi tipi o diversi formati/modelli</sub></sup>.  
-- `Code[string]`: Codice univoco per il tipo di coda passeggeri.  - `Description[string]`: Descrizione del tipo di coda di passeggeri.  - `id[*]`: Identificatore univoco dell'entità  - `type[string]`: Deve essere uguale a QueueType.  <!-- /30-PropertiesList -->  
+- `Code[string]`: Codice univoco per il tipo di coda passeggeri.  - `Description[string]`: Descrizione del tipo di coda passeggeri.  - `id[*]`: Identificatore univoco dell'entità  - `type[string]`: Deve essere uguale a QueueType.  <!-- /30-PropertiesList -->  
 <!-- 35-RequiredProperties -->  
 Proprietà richieste  
 - `id`  - `type`  <!-- /35-RequiredProperties -->  
