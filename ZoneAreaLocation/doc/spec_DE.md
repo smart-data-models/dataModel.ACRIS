@@ -164,7 +164,7 @@ ZoneAreaLocation:
 ```  
 </details>  
 #### ZoneAreaLocation NGSI-LD key-values Beispiel  
-Hier ist ein Beispiel für einen ZoneAreaLocation im JSON-LD-Format als Key-Values. Dies ist mit NGSI-LD kompatibel, wenn `options=keyValues` verwendet wird, und liefert die Kontextdaten einer einzelnen Entität.  
+Hier ist ein Beispiel für einen ZoneAreaLocation im JSON-LD-Format als Key-Values. Dies ist kompatibel mit NGSI-LD, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
 {  
