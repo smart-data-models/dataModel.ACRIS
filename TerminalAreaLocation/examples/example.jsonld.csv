@@ -1,0 +1,2 @@
+"id_", "type_", "Name_", "AirportLocation__Latitude_", "AirportLocation__Longitude_", "AirportLocation__Name_", "AirportLocation__Srid_", "@context__0_"
+"urn:ngsi-ld:TerminalAreaLocation:id:DRIT:21733898", "TerminalAreaLocation", "East terminal", "40.42", "3.708", "", "4326", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
