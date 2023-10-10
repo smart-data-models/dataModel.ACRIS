@@ -1,0 +1,42 @@
+{
+    "@id": "dtmi:com:ngsi-ld:TerminalAreaLocation;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Smart Data Models - Mapping of ACRIS data model TerminalAreaLocation adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/TerminalAreaLocation/schema.json",
+    "description": "Property. The geospatial or geopolitical location of an Airport Terminal building.",
+    "displayName": "TerminalAreaLocation",
+    "contents": [
+        {
+            "name": "Name",
+            "writable": true,
+            "displayName": "Name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Unique name for the Terminal Area Location."
+        },
+        {
+            "@type": "object",
+            "name": "AirportLocation",
+            "comment": "The geospatial or geopolitical location of an Airport.",
+            "displayName": "AirportLocation",
+            "fields": [
+                {
+                    "name": "Latitude",
+                    "schema": "long"
+                },
+                {
+                    "name": "Longitude",
+                    "schema": "long"
+                },
+                {
+                    "name": "Name",
+                    "schema": "string"
+                },
+                {
+                    "name": "Srid",
+                    "schema": "integer"
+                }
+            ]
+        }
+    ]
+}
