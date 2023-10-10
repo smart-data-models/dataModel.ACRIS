@@ -1,0 +1,2 @@
+"id_", "type_", "Identifier_", "Name_", "AirportFacility__IataCode_", "AirportFacility__IcaoCode_", "AirportFacility__Name_", "@context__0_"
+"urn:ngsi-ld:TerminalFacility:id:HJCW:88401819", "TerminalFacility", "T2", "Terminal 2", "SFO", "KSFO", "San Francisco International Airport", "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
