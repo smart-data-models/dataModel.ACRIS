@@ -164,7 +164,7 @@ ZoneAreaLocation:
 ```  
 </details>  
 #### ZoneAreaLocation Valeurs clés NGSI-LD Exemple  
-Voici un exemple de ZoneAreaLocation au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données contextuelles d'une entité individuelle.  
+Voici un exemple de ZoneAreaLocation au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
 {  
@@ -186,7 +186,7 @@ ZoneAreaLocation:
 }  
 ```  
 </details>  
-#### ZoneAreaLocation NGSI-LD normalisé Exemple  
+#### ZoneAreaLocation NGSI-LD normalisée Exemple  
 Voici un exemple de ZoneAreaLocation au format JSON-LD tel que normalisé. Ce format est compatible avec NGSI-LD lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.  
 <details><summary><strong>show/hide example</strong></summary>    
 ```json  
