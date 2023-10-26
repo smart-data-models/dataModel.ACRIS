@@ -1,6 +1,6 @@
 {
   "id": "urn:ngsi-ld:QueueMeasurement:id:IEQX:79193255",
-  "type": "QueueMeasurement",
+  "type": "PassengerQueue",
   "Occupancy": 58,
   "ProjectedWaitTime": 544.4,
   "Throughput": 384,
