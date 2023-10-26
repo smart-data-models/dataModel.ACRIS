@@ -1,3 +1,3 @@
 /* (Beta) Export of data model CheckpointAreaLocation of the subject dataModel.ACRIS for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
 CREATE TYPE CheckpointAreaLocation_type AS ENUM ('CheckpointAreaLocation');
-CREATE TABLE CheckpointAreaLocation (AirportElevation JSON, Latitude NUMERIC, Longitude NUMERIC, Name TEXT, Srid NUMERIC, ZoneAreaLocation JSON, type CheckpointAreaLocation_type);
+CREATE TABLE CheckpointAreaLocation (AirportElevation JSON, Latitude NUMERIC, Longitude NUMERIC, Name TEXT, Srid NUMERIC, ZoneAreaLocation JSON, id TEXT PRIMARY KEY, type CheckpointAreaLocation_type);
