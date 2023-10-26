@@ -1,3 +1,3 @@
 /* (Beta) Export of data model PassengerQueue of the subject dataModel.ACRIS for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
 CREATE TYPE PassengerQueue_type AS ENUM ('PassengerQueue');
-CREATE TABLE PassengerQueue (CheckpointFacility JSON, Identifier TEXT, Name TEXT, PassengerProcess JSON, QueueLocation JSON, QueueStatus JSON, QueueType JSON, type PassengerQueue_type);
+CREATE TABLE PassengerQueue (CheckpointFacility JSON, Identifier TEXT, Name TEXT, PassengerProcess JSON, QueueLocation JSON, QueueStatus JSON, QueueType JSON, id TEXT PRIMARY KEY, type PassengerQueue_type);
