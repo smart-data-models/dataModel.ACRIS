@@ -57,7 +57,10 @@
             }
           }
         },
-        "OperationTimePeriod": ""
+        "OperationTimePeriod": {
+          "ClosingTime": "",
+          "OpeningTime": ""
+        }
       },
       "PassengerProcess": {
         "Name": "",
