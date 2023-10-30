@@ -95,7 +95,27 @@ QueueType:
 }  
 ```  
 </details>  
-Nicht verfügbar ist das Beispiel eines QueueType im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-v2, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.  
+#### QueueType NGSI-v2 normalisiert Beispiel  
+Hier ist ein Beispiel für einen QueueType im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-v2, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.  
+<details><summary><strong>show/hide example</strong></summary>    
+```json  
+{  
+    "id": "urn:ngsi-ld:QueueType:id:BCWB:56620437",  
+    "type": "QueueType",  
+    "Code": {  
+        "type": "Text",  
+        "value": "type1"  
+    },  
+    "Description": {  
+        "type": "Text",  
+        "value": ""  
+    },  
+    "@context": [  
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"  
+    ]  
+}  
+```  
+</details>  
 #### QueueType NGSI-LD key-values Beispiel  
 Hier ist ein Beispiel für einen QueueType im JSON-LD-Format als Key-Values. Dies ist mit NGSI-LD kompatibel, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.  
 <details><summary><strong>show/hide example</strong></summary>    
