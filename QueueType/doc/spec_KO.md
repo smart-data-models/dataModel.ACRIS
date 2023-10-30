@@ -95,7 +95,27 @@ QueueType:
 }  
 ```  
 </details>  
-정규화된 JSON-LD 형식의 QueueType 예제를 사용할 수 없습니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
+#### 대기열 유형 NGSI-v2 정규화 예제  
+다음은 정규화된 JSON-LD 형식의 QueueType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
+<details><summary><strong>show/hide example</strong></summary>    
+```json  
+{  
+    "id": "urn:ngsi-ld:QueueType:id:BCWB:56620437",  
+    "type": "QueueType",  
+    "Code": {  
+        "type": "Text",  
+        "value": "type1"  
+    },  
+    "Description": {  
+        "type": "Text",  
+        "value": ""  
+    },  
+    "@context": [  
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"  
+    ]  
+}  
+```  
+</details>  
 #### 대기열 유형 NGSI-LD 키-값 예제  
 다음은 키-값으로 JSON-LD 형식의 QueueType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
 <details><summary><strong>show/hide example</strong></summary>    
@@ -135,7 +155,7 @@ QueueType:
 <!-- 90-FooterNotes -->  
 <!-- /90-FooterNotes -->  
 <!-- 95-Units -->  
-[FAQ 10](https://smartdatamodels.org/index.php/faqs/)을 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.  
+10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.  
 <!-- /95-Units -->  
 <!-- 97-LastFooter -->  
 ---  
