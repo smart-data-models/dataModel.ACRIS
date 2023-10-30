@@ -95,7 +95,27 @@ QueueType:
 }  
 ```  
 </details>  
-没有以 JSON-LD 格式规范化的队列类型示例。当不使用选项时，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。  
+#### QueueType NGSI-v2 标准化示例  
+下面是一个队列类型（QueueType）规范化 JSON-LD 格式的示例。当不使用选项时，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。  
+<details><summary><strong>show/hide example</strong></summary>    
+```json  
+{  
+    "id": "urn:ngsi-ld:QueueType:id:BCWB:56620437",  
+    "type": "QueueType",  
+    "Code": {  
+        "type": "Text",  
+        "value": "type1"  
+    },  
+    "Description": {  
+        "type": "Text",  
+        "value": ""  
+    },  
+    "@context": [  
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"  
+    ]  
+}  
+```  
+</details>  
 #### QueueType NGSI-LD 关键值 示例  
 下面是一个以 JSON-LD 格式作为键值的队列类型示例。当使用 `options=keyValues` 时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。  
 <details><summary><strong>show/hide example</strong></summary>    
