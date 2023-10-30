@@ -95,7 +95,27 @@ QueueType:
 }  
 ```  
 </details>  
-正規化されたJSON-LD形式のQueueTypeの例はありません。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。  
+#### キュータイプ NGSI-v2 正規化例  
+以下は、正規化されたJSON-LD形式のQueueTypeの例です。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。  
+<details><summary><strong>show/hide example</strong></summary>    
+```json  
+{  
+    "id": "urn:ngsi-ld:QueueType:id:BCWB:56620437",  
+    "type": "QueueType",  
+    "Code": {  
+        "type": "Text",  
+        "value": "type1"  
+    },  
+    "Description": {  
+        "type": "Text",  
+        "value": ""  
+    },  
+    "@context": [  
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"  
+    ]  
+}  
+```  
+</details>  
 #### キュータイプ NGSI-LD キー値の例  
 JSON-LD形式のQueueTypeのキー値の例です。これは NGSI-LD と互換性があり、`options=keyValues` を使用すると、個々のエンティティのコンテキストデータを返す。  
 <details><summary><strong>show/hide example</strong></summary>    
