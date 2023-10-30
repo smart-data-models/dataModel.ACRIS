@@ -15,7 +15,7 @@
 ## Elenco delle proprietà  
 
 <sup><sub>[*] Se non c'è un tipo in un attributo è perché potrebbe avere diversi tipi o diversi formati/modelli</sub></sup>.  
-- `Code[string]`: Codice univoco per il tipo di coda passeggeri.  - `Description[string]`: Descrizione del tipo di coda passeggeri.  - `id[*]`: Identificatore univoco dell'entità  - `type[string]`: Deve essere uguale a QueueType.  <!-- /30-PropertiesList -->  
+- `Code[string]`: Codice univoco per il tipo di coda passeggeri.  - `Description[string]`: Descrizione del tipo di coda di passeggeri.  - `id[*]`: Identificatore univoco dell'entità  - `type[string]`: Deve essere uguale a QueueType.  <!-- /30-PropertiesList -->  
 <!-- 35-RequiredProperties -->  
 Proprietà richieste  
 - `id`  - `type`  <!-- /35-RequiredProperties -->  
@@ -95,7 +95,27 @@ QueueType:
 }  
 ```  
 </details>  
-Non è disponibile l'esempio di un QueueType in formato JSON-LD normalizzato. Questo è compatibile con NGSI-v2 quando non si usano le opzioni e restituisce i dati di contesto di una singola entità.  
+#### QueueType NGSI-v2 normalizzato Esempio  
+Ecco un esempio di QueueType in formato JSON-LD normalizzato. Questo è compatibile con NGSI-v2 quando non si usano opzioni e restituisce i dati di contesto di una singola entità.  
+<details><summary><strong>show/hide example</strong></summary>    
+```json  
+{  
+    "id": "urn:ngsi-ld:QueueType:id:BCWB:56620437",  
+    "type": "QueueType",  
+    "Code": {  
+        "type": "Text",  
+        "value": "type1"  
+    },  
+    "Description": {  
+        "type": "Text",  
+        "value": ""  
+    },  
+    "@context": [  
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"  
+    ]  
+}  
+```  
+</details>  
 #### QueueType Valori chiave NGSI-LD Esempio  
 Ecco un esempio di QueueType in formato JSON-LD come valori-chiave. Questo è compatibile con NGSI-LD quando si usa `options=keyValues` e restituisce i dati di contesto di una singola entità.  
 <details><summary><strong>show/hide example</strong></summary>    
