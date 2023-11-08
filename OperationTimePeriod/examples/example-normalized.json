@@ -7,6 +7,6 @@
   },
   "OpeningTime": {
     "type": "date-time",
-    "@value": "00:00:02Z"
+    "value": "00:00:02Z"
   }
 }
