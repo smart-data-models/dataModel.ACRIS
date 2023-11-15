@@ -22,18 +22,18 @@
       "Identifier": "1bdaec90-7a42-11e7-bb31-be2e44b06b34",
       "Name": "Checkpoint B",
       "CheckpointAreaLocation": {
-      "Latitude": 40.42,
-      "Longitude": 3.08,
-      "Name": "",
-      "$rid": 0
-    },
+        "Latitude": 40.42,
+        "Longitude": 3.08,
+        "Name": "",
+        "$rid": 0
+      },
       "CheckpointFacilityOperatorParty": {
-      "Name": ""
-    },
+        "Name": ""
+      },
       "CheckpointFacilityType": {
-      "Code": "",
-      "Description": ""
-    },
+        "Code": "",
+        "Description": ""
+      },
       "ConcourseFacility": {
         "Identifier": "BA/B",
         "Name": "Boarding Area B",
