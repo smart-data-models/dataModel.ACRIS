@@ -14,7 +14,7 @@
     "value": ""
   },
   "CheckpointAreaLocation": {
-    "type": "Text",
+    "type": "StructuredValue",
     "value": {
       "Latitude": 8.0,
       "Longitude": 5.1,
@@ -76,8 +76,5 @@
       "ClosingTime": "23:59:00Z",
       "OpeningTime": "00:00:00Z"
     }
-  },
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
-  ]
+  }
 }
