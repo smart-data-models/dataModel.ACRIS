@@ -46,16 +46,16 @@
     }
   },
   "QueueLocation": {
-    "Name":""
+    "Name": ""
   },
   "QueueStatus": {
-    "Name":""
+    "Name": ""
   },
   "QueueType": {
     "Code": "",
     "Description": ""
   },
-    "@context": [
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
-    ]
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.ACRIS/master/context.jsonld"
+  ]
 }
