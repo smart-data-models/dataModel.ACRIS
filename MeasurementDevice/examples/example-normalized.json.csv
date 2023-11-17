@@ -1,2 +1,2 @@
 "id_", "type_", "Name__type_", "Name__value_", "MeasurementDeviceLocation__type_", "MeasurementDeviceLocation__value__Name_"
-"urn:ngsi-ld:MeasurementDevice:id:VGWX:01135533", "MeasurementDevice", "Text", "MeasurementDevice1", "Text", "Gate23"
+"urn:ngsi-ld:MeasurementDevice:id:VGWX:01135533", "MeasurementDevice", "Text", "MeasurementDevice1", "StructuredValue", "Gate23"
