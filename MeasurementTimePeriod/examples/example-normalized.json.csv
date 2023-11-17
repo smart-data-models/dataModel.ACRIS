@@ -1,2 +1,2 @@
 "id_", "type_", "EndTime__type_", "EndTime__value_"
-"urn:ngsi-ld:MeasurementTimePeriod:id:RKKY:28707515", "MeasurementTimePeriod", "date-time", "2023-03-22T18:59:02Z"
+"urn:ngsi-ld:MeasurementTimePeriod:id:RKKY:28707515", "MeasurementTimePeriod", "DateTime", "2023-03-22T18:59:02Z"
