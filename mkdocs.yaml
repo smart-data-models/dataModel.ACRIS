@@ -1,5 +1,6 @@
 site_name: Smart Data Models. dataModels.ACRIS
 docs_dir: AirportElevation/doc
+site_url: https://smrtdatamodels.readthedocs.io/
 
 nav:
   - Home: index.md
