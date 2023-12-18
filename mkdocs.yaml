@@ -1,5 +1,5 @@
 site_name: Smart Data Models. dataModels.ACRIS
-docs_dir:
+docs_dir: AirportElevation/doc
 
 nav:
-  - Home: AirportElevation/doc/spec.md
+  - Home: index.md
