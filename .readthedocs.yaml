@@ -16,3 +16,5 @@ mkdocs:
 
 python:
   install:
+    - requirements: https://raw.githubusercontent.com/FIWARE/tutorials.NGSI-LD/master/docs/requirements.txt
+
