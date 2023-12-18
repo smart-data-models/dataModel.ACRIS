@@ -1,5 +1,5 @@
 site_name: Smart Data Models. dataModels.ACRIS
-docs_dir: docs
+docs_dir:
 
 nav:
   - Home: index.md
