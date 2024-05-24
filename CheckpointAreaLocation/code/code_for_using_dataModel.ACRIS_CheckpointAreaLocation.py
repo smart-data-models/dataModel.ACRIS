@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "CheckpointAreaLocation"
 subject = "dataModel.ACRIS"
-Latitude = {'type': 'Property', 'value': 40.42}
+Latitude = 40.42
 attribute = "Latitude"
 value = Latitude
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-Longitude = {'type': 'Property', 'value': 3.708}
+Longitude = 3.708
 attribute = "Longitude"
 value = Longitude
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-Name = "{'type': 'Property', 'value': 'Madrid'}"
+Name = "As since dream public analysis clear one. Federal skill term court."
 attribute = "Name"
 value = Name
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-Srid = {'type': 'Property', 'value': 4326}
+Srid = 4326
 attribute = "Srid"
 value = Srid
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
