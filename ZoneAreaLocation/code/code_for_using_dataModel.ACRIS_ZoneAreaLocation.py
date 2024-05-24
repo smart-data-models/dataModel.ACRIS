@@ -24,19 +24,24 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "ZoneAreaLocation"
 subject = "dataModel.ACRIS"
-Name = "{'type': 'Property', 'value': 'East are terminal 1 Madrid'}"
+Name = "East are terminal 1 Madrid"
 attribute = "Name"
 value = Name
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-TerminalAreaLocation = {'type': 'Property', 'value': {'Name': 'Change more ground law television. Its fire such see.', 'AirportLocation': {'Latitude': 40.42, 'Longitude': 3.708, 'Name': 'East Side', 'Srid': 4326}}}
+TerminalAreaLocation = {'Name': 'East side', 'AirportLocation': {'Latitude': 40.42, 'Longitude': 3.708, 'Name': 'Madrid', 'Srid': 4326}}
 attribute = "TerminalAreaLocation"
 value = TerminalAreaLocation
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
