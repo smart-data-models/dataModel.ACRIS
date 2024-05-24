@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "PassengerQueue"
 subject = "dataModel.ACRIS"
-Identifier = "{'type': 'Property', 'value': '1'}"
+Identifier = "1"
 attribute = "Identifier"
 value = Identifier
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-Name = "{'type': 'Property', 'value': '1'}"
+Name = "1"
 attribute = "Name"
 value = Name
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-CheckpointFacility = {'type': 'Property', 'value': {'Description': '', 'Identifier': '1bdaec90-7a42-11e7-bb31-be2e44b06b34', 'Name': 'Checkpoint B', 'CheckpointAreaLocation': {'Latitude': 40.42, 'Longitude': 3.708, 'Name': '', 'Srid': 0, 'AirportElevation': {'Name': '', 'Value': 3.6, 'AirportElevationUnitOfMeasurement': {'Name': 'Meters'}}, 'ZoneAreaLocation': {'Name': '', 'TerminalAreaLocation': {'Name': '', 'AirportLocation': {'Latitude': 40.42, 'Longitude': 3.708, 'Name': 'Barajas', 'Srid': 0}}}}, 'CheckpointFacilityOperatorParty': {'Name': ''}, 'CheckpointFacilityType': {'Code': '', 'Description': ''}, 'ConcourseFacility': {'Identifier': 'BA/B', 'Name': 'Boarding area B', 'TerminalFacility': {'Identifier': 'T1', 'Name': 'Terminal 1', 'AirportFacility': {'IataCode': 'SFO', 'IcaoCode': 'KSFO', 'Name': 'San Francisco Internationl Airport'}}}, 'OperationTimePeriod': {'ClosingTime': '', 'OpeningTime': ''}}}
+CheckpointFacility = {'Description': '', 'Identifier': '1bdaec90-7a42-11e7-bb31-be2e44b06b34', 'Name': 'Checkpoint B', 'CheckpointAreaLocation': {'Latitude': 40.42, 'Longitude': 3.08, 'Name': '', '$rid': 0}, 'CheckpointFacilityOperatorParty': {'Name': ''}, 'CheckpointFacilityType': {'Code': '', 'Description': ''}, 'ConcourseFacility': {'Identifier': 'BA/B', 'Name': 'Boarding Area B', 'TerminalFacility': {'Identifier': 'T1', 'Name': 'Terminal 1', 'AirportFacility': {'IataCode': 'SFO', 'IcaoCode': 'KSFO', 'Name': 'San Francisco International Airport'}}}, 'OperationTimePeriod': {'ClosingTime': '', 'OpeningTime': ''}}
 attribute = "CheckpointFacility"
 value = CheckpointFacility
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-PassengerProcess = {'type': 'Property', 'value': {'Name': '', 'PassengerProcessType': {'Code': '', 'Description': ''}}}
+PassengerProcess = {'Name': '', 'PassengerProcessType': {'Code': '', 'Description': ''}}
 attribute = "PassengerProcess"
 value = PassengerProcess
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
