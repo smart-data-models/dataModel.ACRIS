@@ -69,9 +69,25 @@ PassengerQueue:
                       description: The geospatial or geopolitical location of an Airport.
                       properties:
                         Latitude:
+                          description: Coordinate for latitude of the Airport.
+                          type: number
+                          x-ngsi:
+                            type: Property
                         Longitude:
+                          description: Coordinate for longitude of the Airport.
+                          type: number
+                          x-ngsi:
+                            type: Property
                         Name:
+                          description: Unique name for the Airport Location.
+                          type: string
+                          x-ngsi:
+                            type: Property
                         Srid:
+                          description: 'A Spatial Reference System Identifier (SRID), to identify the spatial coordinate system definitions.'
+                          type: integer
+                          x-ngsi:
+                            type: Property
                       type: object
                       x-ngsi:
                         type: Property
@@ -307,7 +323,7 @@ PassengerQueue:
     - type
   type: object
   x-derived-from: https://acris.aero/static/documents/waittimes/ACI-Wait-Times-API-Specification-v1.6.0.1c4ec122da9a.yaml
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2024 Contributors to Smart Data Models Program'
   x-license-url: https://github.com/smart-data-models/dataModel.ACRIS/blob/master/PassengerQueue/LICENSE.md
   x-model-schema: https://smart-data-models.github.io/dataModel.ACRIS/PassengerQueue/schema.json
   x-model-tags: ACRIS
